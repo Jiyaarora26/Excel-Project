@@ -16,13 +16,43 @@ Visualization – Designed an interactive Excel dashboard with charts, slicers, 
 
 Insights from the Dashboard
 
-Highlighted top-performing categories/apps based on ratings and reviews.
+📊 High-Level Metrics
+Total Patients: 66,587
 
-Showed update trends to understand how frequently apps are maintained.
+Readmitted Patients: 30,693
 
-Compared installs vs. ratings to check if popularity aligns with user satisfaction.
+Readmission Rate: 46.09%
 
-Provided a summary view of overall performance, helping in quick decision-making.
+Average Time in Hospital: 6.78 days
+
+🔍 Insight: Nearly half of the patients are being readmitted, which is a significant figure. This could indicate issues in post-discharge care, chronic conditions, or ineffective initial treatments.
+
+👥 Demographic Breakdown
+Gender Filter: Includes Female, Male, Unknown/Invalid
+
+Age Groups: All age brackets from [0–10) to [90–100)
+
+🔍 Insight: Despite the age segmentation, the bar chart for readmission rate by age shows 0.00% across all groups, which suggests either:
+
+A data issue (e.g., missing values or incorrect aggregation)
+
+Or that the age-based readmission logic hasn’t been implemented correctly in the dashboard.
+
+This is a red flag worth investigating further.
+
+🧁 Readmission Visuals
+Pie Chart – Readmitted Diabetes Patients: Highlights the proportion of diabetic patients among those readmitted.
+
+Pie Chart – Overall Readmission Rates: Reinforces the 46.09% figure visually.
+
+🔍 Insight: If diabetes is a major contributor to readmissions, targeted interventions for diabetic patients could reduce overall rates.
+
+🏥 Specialty & Medication Analysis
+Line Graph – Average Stay by Specialty: Shows which medical specialties have longer hospital stays.
+
+Area Chart – Medications Prescribed vs. Time in Hospital: Indicates a correlation between number of medications and hospital stay duration.
+
+🔍 Insight: Specialties with longer stays may need process optimization. Also, more medications might be linked to complex cases or polypharmacy risks—both of which could contribute to readmissions.
 
 Purpose
 
