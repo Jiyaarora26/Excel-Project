@@ -10,7 +10,7 @@ Exploratory Analysis – Summarized the data using pivot tables and key metrics.
 
 Trend Analysis – Identified patterns over time to understand how the data changes.
 
-Comparisons – Compared categories (e.g., ratings, reviews, installs, updates) to find meaningful differences.
+Comparisons – Compared categories (e.g., readmission rates,total patients, time in hospital) to find meaningful differences.
 
 Visualization – Designed an interactive Excel dashboard with charts, slicers, and KPIs to present insights clearly.
 
